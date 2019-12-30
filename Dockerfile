@@ -1,7 +1,7 @@
 # Pull Base Image
 FROM java:8
 
-##Install MAven
+### Install MAven
 RUN apt-get update
 RUN apt-get install -y maven
 
